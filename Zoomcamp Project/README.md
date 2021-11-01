@@ -13,6 +13,7 @@ There are two datasets: train.csv with all examples (32950) and 21 inputs includ
 test.csv which is the test data that consists of 8238 observations and 20 features without the target feature
 
 It consists of the following features: 
+
 - Age: age of a person.
 
 -job: type of job ('admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown').
