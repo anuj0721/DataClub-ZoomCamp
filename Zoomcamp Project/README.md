@@ -13,35 +13,34 @@ There are two datasets: train.csv with all examples (32950) and 21 inputs includ
 test.csv which is the test data that consists of 8238 observations and 20 features without the target feature
 
 It consists of the following features: 
+- age: age of a person.
 
-- Age: age of a person.
+- job: type of job ('admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown').
 
--job: type of job ('admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown').
+- marital: marital status ('divorced','married','single','unknown'; note: 'divorced' means divorced or widowed).
 
--marital: marital status ('divorced','married','single','unknown'; note: 'divorced' means divorced or widowed).
+- education: ('basic.4y','basic.6y','basic.9y','high.school','illiterate','professional.course','university.degree','unknown')
 
--education: ('basic.4y','basic.6y','basic.9y','high.school','illiterate','professional.course','university.degree','unknown')
+- default: has credit in default? ('no','yes','unknown').
 
--default: has credit in default? ('no','yes','unknown').
+- housing: has housing loan? ('no','yes','unknown').
 
--housing: has housing loan? ('no','yes','unknown').
+- loan: has personal loan? ('no','yes','unknown').
 
--loan: has personal loan? ('no','yes','unknown').
+- contact: contact communication type ('cellular','telephone').
 
--contact: contact communication type ('cellular','telephone').
+- month: last contact month of year ('jan', 'feb', 'mar', …, 'nov', 'dec').
 
--month: last contact month of year ('jan', 'feb', 'mar', …, 'nov', 'dec').
+- dayofweek: last contact day of the week ('mon','tue','wed','thu','fri').
 
--dayofweek: last contact day of the week ('mon','tue','wed','thu','fri').
+- duration: last contact duration, in seconds . Important note: this attribute highly affects the output target (e.g., if duration=0 then y='no').
 
--duration: last contact duration, in seconds . Important note: this attribute highly affects the output target (e.g., if duration=0 then y='no').
+- campaign: number of contacts performed during this campaign and for this client (includes last contact).
 
--campaign: number of contacts performed during this campaign and for this client (includes last contact).
-
--poutcome: outcome of the previous marketing campaign ('failure','nonexistent','success').
+- poutcome: outcome of the previous marketing campaign ('failure','nonexistent','success').
 
 Target variable
--y: has the client subscribed a term deposit? ('yes','no')
+- y: has the client subscribed a term deposit? ('yes','no')
 
 ## Objective
 The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable y).
