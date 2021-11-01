@@ -89,7 +89,7 @@ First, build the image using:
 
 and now run the image inside a container using:
 
-```docker run -d -p 8000:8000 node-docker```
+```docker run -d -p 7000:7000 node-docker```
 
 You can send request to the running container by making use of code in `predict_test.py` or use Postman to send a POST request.
 
