@@ -45,8 +45,6 @@ Target variable
 ## Objective
 The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable y).
 
-The dataset contains train and test data. Features of train data are listed below. And the test data have already been preprocessed.
-
 ## EDA
 The following experiments were performed in the colab notebook for the analysis:
 - Check for missing values
